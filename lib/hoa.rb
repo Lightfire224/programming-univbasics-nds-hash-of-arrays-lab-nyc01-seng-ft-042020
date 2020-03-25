@@ -7,9 +7,9 @@ BASE_HOA = {
 
 def add_character(show, name)
   if BASE_HOA[:chipmunks] << name
-  
 end
 
+end
 
   # Write your implementation here
   # Should return the array of the 'show' argument
