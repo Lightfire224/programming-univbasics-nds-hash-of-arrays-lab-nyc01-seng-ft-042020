@@ -16,7 +16,7 @@ def add_character(show, name)
   end
   
   if name = "Astro" 
-    BASE_HOA[:jetsons] << "name"
+    BASE_HOA[:jetsons] << name
   end
   
 
