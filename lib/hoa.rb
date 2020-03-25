@@ -7,15 +7,15 @@ BASE_HOA = {
 
 def add_character(show, name)
 
-  if BASE_HOA[:chipmunks] 
-    BASE_HOA[:chipmunks] << "Dave"
+  if name = "Dave"
+    BASE_HOA[:chipmunks] << name
   end 
   
-  if BASE_HOA[:third_earthers] 
+  if name = "Snarf"
     BASE_HOA[:third_earthers] << "Snarf"
   end
   
-  if BASE_HOA[:jetsons] 
+  if name = "Astro" 
     BASE_HOA[:jetsons] << "Astro"
   end
   
