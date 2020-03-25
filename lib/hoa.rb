@@ -6,22 +6,12 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  BASE_HOA[:chipmunks] << name
-
-  # Write your implementation here
-  # Should return the array of the 'show' argument
-end
-
-def add_character(show, name)
-  BASE_HOA[:third_earthers] << name
+  if BASE_HOA[:chipmunks] << name
+  if BASE_HOA[:third_earthers] << name
+  if BASE_HOA[:jetsons] << name
   
-  # Write your implementation here
-  # Should return the array of the 'show' argument
 end
 
-def add_character(show, name)
-  BASE_HOA[:jetsons] << name
-  
+
   # Write your implementation here
   # Should return the array of the 'show' argument
-end
