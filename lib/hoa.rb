@@ -12,11 +12,11 @@ def add_character(show, name)
   end 
   
   if name = "Snarf"
-    BASE_HOA[:third_earthers] << "Snarf"
+    BASE_HOA[:third_earthers] << name
   end
   
   if name = "Astro" 
-    BASE_HOA[:jetsons] << "Astro"
+    BASE_HOA[:jetsons] << "name"
   end
   
 
