@@ -9,13 +9,9 @@ def add_character(show, name)
 
   if name = "Dave"
     BASE_HOA[:chipmunks] << name
-  end 
-  
-  if name = "Snarf"
+  elsif name = "Snarf"
     BASE_HOA[:third_earthers] << name
-  end
-  
-  if name = "Astro" 
+  else name = "Astro" 
     BASE_HOA[:jetsons] << name
   end
   
