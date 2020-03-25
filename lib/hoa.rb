@@ -6,6 +6,16 @@ BASE_HOA = {
 
 
 def add_character(show, name)
+
+  if name == "Dave"
+    BASE_HOA[:chipmunks] << name
+  elsif name == "Snarf"
+    BASE_HOA[:third_earthers] << name
+  else name == "Astro" 
+    BASE_HOA[:jetsons] << name
+  end
+  
+end
+
   # Write your implementation here
   # Should return the array of the 'show' argument
-end
